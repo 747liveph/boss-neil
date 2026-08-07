@@ -86,26 +86,6 @@ a{text-decoration:none;color:inherit}
     line-height:1.7;
 }
 
-.hero-box {
-    position: relative;
-    max-width: 450px;
-    margin: 30px auto;
-    padding: 35px 25px;
-    background: rgba(10,15,35,0.85);
-    backdrop-filter: blur(15px);
-    border-radius: 25px;
-    border: 1px solid rgba(0,180,255,0.5);
-    box-shadow:
-        0 0 25px rgba(0,170,255,0.25),
-        inset 0 0 20px rgba(255,255,255,0.05);
-    text-align: center;
-}
-
-.hero-box h3{
-    color:#9EFF00;
-    margin-bottom:15px;
-}
-
 .hero-list{
     display:flex;
     flex-direction:column;
@@ -301,79 +281,82 @@ a{text-decoration:none;color:inherit}
     font-size:16px;
     color:#fff;
 }
-.hero-badge {
-    display:inline-block;
-    padding:8px 18px;
+.hero-box {
+    position:relative;
+    max-width:450px;
+    margin:30px auto;
+    padding:30px 25px;
+    background:#141414;
     border-radius:20px;
-    background:#ffb000;
-    color:#000;
-    font-weight:700;
-    font-size:13px;
+    border:1px solid #222;
+    box-shadow:0 0 20px rgba(158,255,0,.15);
+    text-align:center;
+    overflow:hidden;
+}
+
+/* glow effect */
+.hero-box::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:linear-gradient(120deg,transparent,#9EFF00,transparent);
+    opacity:.08;
 }
 
 
-.hero-box h3 {
-    margin-top:20px;
-    font-size:26px;
-    color:white;
+.hero-box h3{
+    position:relative;
+    color:#9EFF00;
+    font-size:24px;
+    margin-bottom:18px;
 }
 
 
-.hero-sub {
-    color:#aaa;
+.hero-list{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
     margin-bottom:25px;
 }
 
 
-.hero-list {
-    display:flex;
-    flex-direction:column;
-    gap:15px;
-}
-
-
-.hero-item {
+.hero-item{
     display:flex;
     align-items:center;
-    gap:15px;
-    padding:15px;
+    gap:12px;
+    padding:14px;
+    background:#1c1c1c;
     border-radius:15px;
-    background:rgba(255,255,255,0.06);
-    border:1px solid rgba(255,255,255,0.1);
+    border:1px solid #333;
     text-align:left;
 }
 
 
-.hero-item:first-letter {
-    font-size:25px;
-}
-
-
-.hero-item b {
+.hero-item b{
     display:block;
     color:white;
 }
 
 
-.hero-item small {
+.hero-item small{
     color:#aaa;
 }
 
 
-.register-btn {
+.register-btn{
+    position:relative;
     display:block;
-    margin-top:25px;
-    padding:16px;
+    background:#d81f26;
+    padding:15px;
     border-radius:30px;
-    background:linear-gradient(45deg,#00c6ff,#0072ff);
-    color:white;
     font-weight:800;
-    text-decoration:none;
-    box-shadow:0 0 20px rgba(0,150,255,.6);
+    color:white;
     transition:.3s;
 }
 
 
-.register-btn:hover {
-    transform:scale(1.05);
+.register-btn:hover{
+    background:#9EFF00;
+    color:#000;
 }
