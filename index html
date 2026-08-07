@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>BOSS NEIL | Official 747 Live Agent</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- LOADING SCREEN -->
+
+<div id="loader">
+
+    <img src="assets/logo.png" class="loader-logo">
+
+    <h2>Loading Winning Experience...</h2>
+
+    <div class="loading-bar">
+
+        <div class="loading-fill"></div>
+
+    </div>
+
+</div>
+
+<!-- MAIN WEBSITE -->
+
+<div id="main-content">
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
