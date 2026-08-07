@@ -178,4 +178,3 @@ function initFutureAnimations(){
 // ===============================
 
 console.log("Boss Neil Landing Page Loaded Successfully");
-}
