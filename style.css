@@ -297,3 +297,93 @@ a{text-decoration:none;color:inherit}
     font-size:16px;
     color:#fff;
 }
+.hero-box {
+    position: relative;
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 35px 25px;
+    background: rgba(10,15,35,0.85);
+    backdrop-filter: blur(15px);
+    border-radius: 25px;
+    border: 1px solid rgba(0,180,255,0.5);
+    box-shadow:
+        0 0 25px rgba(0,170,255,0.25),
+        inset 0 0 20px rgba(255,255,255,0.05);
+    text-align: center;
+}
+.hero-badge {
+    display:inline-block;
+    padding:8px 18px;
+    border-radius:20px;
+    background:#ffb000;
+    color:#000;
+    font-weight:700;
+    font-size:13px;
+}
+
+
+.hero-box h3 {
+    margin-top:20px;
+    font-size:26px;
+    color:white;
+}
+
+
+.hero-sub {
+    color:#aaa;
+    margin-bottom:25px;
+}
+
+
+.hero-list {
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+
+.hero-item {
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:15px;
+    border-radius:15px;
+    background:rgba(255,255,255,0.06);
+    border:1px solid rgba(255,255,255,0.1);
+    text-align:left;
+}
+
+
+.hero-item:first-letter {
+    font-size:25px;
+}
+
+
+.hero-item b {
+    display:block;
+    color:white;
+}
+
+
+.hero-item small {
+    color:#aaa;
+}
+
+
+.register-btn {
+    display:block;
+    margin-top:25px;
+    padding:16px;
+    border-radius:30px;
+    background:linear-gradient(45deg,#00c6ff,#0072ff);
+    color:white;
+    font-weight:800;
+    text-decoration:none;
+    box-shadow:0 0 20px rgba(0,150,255,.6);
+    transition:.3s;
+}
+
+
+.register-btn:hover {
+    transform:scale(1.05);
+}
