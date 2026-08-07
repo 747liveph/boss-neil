@@ -62,7 +62,7 @@ a{text-decoration:none;color:inherit}
 50%{transform:translateY(-10px)}
 }
 
-#main-content{display:none;}
+#main-content{display:block;}
 
 .hero{
     text-align:center;
