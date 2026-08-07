@@ -390,7 +390,7 @@ a{text-decoration:none;color:inherit}
     border-radius:50%;
 }
 
-.header-logo span{
+.headfooterer-logo span{
     color:#fff;
     font-size:18px;
     font-weight:700;
@@ -415,10 +415,10 @@ a{text-decoration:none;color:inherit}
 /* Para hindi matakpan ang unang section */
 body{
     padding-top:80px;
-}/* ==========================
+}
+/* ==========================
    FOOTER
 ========================== */
-
 .footer{
     margin-top:60px;
     padding:40px 20px;
@@ -426,7 +426,6 @@ body{
     background:#0f0f0f;
     border-top:1px solid rgba(255,255,255,.08);
 }
-
 .footer-logo{
     width:70px;
     height:70px;
@@ -468,3 +467,31 @@ body{
     color:#777;
     font-size:13px;
 }
+.socials{
+    margin:25px 0;
+}
+
+.socials a{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    width:50px;
+    height:50px;
+    margin:0 10px;
+    border-radius:50%;
+    background:#22c55e;
+    color:#fff;
+    text-decoration:none;
+    font-size:22px;
+    transition:.3s;
+}
+
+.socials a:hover{
+    transform:translateY(-6px);
+    box-shadow:0 0 20px #22c55e;
+}
+
+.copyright{
+    margin-top:25px;
+    font-size:14px;
+    opacity:.7;
