@@ -36,7 +36,43 @@
 </div>
 
 <!-- MAIN WEBSITE -->
+<section class="hero">
 
+    <img src="assets/logo.png" class="hero-logo">
+
+    <h1>OFFICIAL 747 LIVE AGENT</h1>
+
+    <p>
+        Register through my exclusive link and start winning today.
+    </p>
+
+    <div class="hero-box">
+
+        <h3>REGISTER THROUGH MY LINK</h3>
+
+        <div class="hero-list">
+            <span>🎁 ₱150 Welcome Bonus</span>
+            <span>⚡ Fast Withdraw</span>
+            <span>🛡️ Secure Registration</span>
+        </div>
+
+        <a href="https://m.me/YOURPAGE" class="register-btn">
+            REGISTER NOW
+        </a>
+
+    </div>
+
+    <div class="hero-links">
+
+        <a href="#">Facebook</a>
+
+        <a href="#">Messenger</a>
+
+        <a href="#">Group Chat</a>
+
+    </div>
+
+</section>
 <div id="main-content">
 
 </div>
