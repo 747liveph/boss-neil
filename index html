@@ -35,6 +35,8 @@
 
 </div>
 
+
+<div id="main-content">
 <!-- MAIN WEBSITE -->
 <section class="hero">
 
@@ -73,8 +75,50 @@
     </div>
 
 </section>
-<div id="main-content">
+<section class="live-stats">
 
+    <div class="stat-card">
+        <div class="stat-icon">👥</div>
+        <h3 id="playersOnline">8,426+</h3>
+        <p>Players Online</p>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-icon">🏆</div>
+        <h3 id="jackpotWon">₱15.80M+</h3>
+        <p>Jackpot Won</p>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-icon">⚡</div>
+        <h3 id="withdrawTime">2-5 Mins</h3>
+        <p>Withdrawal</p>
+    </div>
+
+</section>
+<section class="promo-section">
+
+    <div class="promo-card">
+
+        <div class="promo-icon">🎁</div>
+
+        <h3>₱150 Welcome Bonus</h3>
+
+        <p>Claim your bonus on your first deposit.</p>
+
+    </div>
+
+    <div class="promo-card">
+
+        <div class="promo-icon">💸</div>
+
+        <h3>10% Cashback</h3>
+
+        <p>Twice every month. Terms apply.</p>
+
+    </div>
+
+</section>
 </div>
 
 <script src="script.js"></script>
