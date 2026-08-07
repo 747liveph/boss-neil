@@ -84,7 +84,214 @@ a{
     grid-template-columns:repeat(3,1fr);
     gap:12px;
     padding:30px 20px;
+}/* ===========================
+   BOSS NEIL PREMIUM STYLE.CSS
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
 }
+
+html{scroll-behavior:smooth;}
+
+body{
+    background:#090909;
+    color:#fff;
+    overflow-x:hidden;
+}
+
+a{text-decoration:none;color:inherit}
+
+#loader{
+    position:fixed;
+    inset:0;
+    background:#090909;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    z-index:9999;
+}
+
+.loader-logo{
+    width:140px;
+    animation:float 2s ease-in-out infinite;
+}
+
+#loader h2{
+    margin:20px 0;
+    color:#9EFF00;
+    font-size:22px;
+}
+
+.loading-bar{
+    width:260px;
+    height:10px;
+    background:#222;
+    border-radius:50px;
+    overflow:hidden;
+}
+
+.loading-fill{
+    height:100%;
+    width:0;
+    background:linear-gradient(90deg,#ff2d2d,#9EFF00);
+    animation:loadbar 2.5s linear forwards;
+}
+
+@keyframes loadbar{to{width:100%;}}
+@keyframes float{
+0%,100%{transform:translateY(0)}
+50%{transform:translateY(-10px)}
+}
+
+#main-content{display:none;}
+
+.hero{
+    text-align:center;
+    padding:60px 20px 35px;
+}
+
+.hero-logo{
+    width:150px;
+    margin-bottom:15px;
+}
+
+.hero h1{
+    font-size:34px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    color:#cfcfcf;
+    max-width:330px;
+    margin:0 auto 25px;
+    line-height:1.7;
+}
+
+.hero-box{
+    max-width:340px;
+    margin:auto;
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.08);
+    backdrop-filter:blur(12px);
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 0 25px rgba(158,255,0,.08);
+}
+
+.hero-box h3{
+    color:#9EFF00;
+    margin-bottom:15px;
+}
+
+.hero-list{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.register-btn{
+    display:block;
+    background:#d81f26;
+    padding:14px;
+    border-radius:12px;
+    font-weight:700;
+    transition:.3s;
+}
+
+.register-btn:hover{
+    background:#9EFF00;
+    color:#000;
+}
+
+.hero-links{
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    margin-top:18px;
+    color:#9EFF00;
+    font-size:14px;
+}
+
+.live-stats{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:12px;
+    padding:15px 20px 30px;
+}
+
+.stat-card{
+    background:#141414;
+    border-radius:16px;
+    padding:18px 10px;
+    text-align:center;
+    border:1px solid #222;
+}
+
+.stat-card h3{color:#9EFF00;}
+.stat-card p{font-size:12px;color:#bbb;margin-top:5px;}
+
+.promo-section{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+    padding:0 20px 35px;
+}
+
+.promo-card,.game-card{
+    background:#141414;
+    border:1px solid #222;
+    border-radius:18px;
+    padding:20px;
+    text-align:center;
+    transition:.3s;
+}
+
+.promo-card:hover,.game-card:hover{
+    transform:translateY(-5px);
+    border-color:#9EFF00;
+    box-shadow:0 0 18px rgba(158,255,0,.2);
+}
+
+.promo-icon{
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.games{
+    padding:10px 20px 50px;
+    text-align:center;
+}
+
+.games h2{
+    margin-bottom:20px;
+}
+
+.games-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+}
+
+.game-logo{
+    width:60px;
+    height:60px;
+    object-fit:contain;
+    margin-bottom:12px;
+}
+
+@media(max-width:480px){
+.hero h1{font-size:28px;}
+.live-stats{gap:8px;}
+.stat-card{padding:15px 8px;}
+.hero-box{max-width:100%;}
+}
+
 
 .stat-card{
     background:#151515;
