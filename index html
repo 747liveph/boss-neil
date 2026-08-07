@@ -119,7 +119,45 @@
     </div>
 
 </section>
+<section class="games">
 
+    <h2>AVAILABLE GAMES</h2>
+
+    <div class="games-grid">
+
+        <div class="game-card">
+            <img src="assets/sportsbook.png" class="game-logo">
+            <h3>Sportsbook</h3>
+        </div>
+
+        <div class="game-card">
+            <img src="assets/casino.png" class="game-logo">
+            <h3>Casino</h3>
+        </div>
+
+        <div class="game-card">
+            <img src="assets/slots.png" class="game-logo">
+            <h3>Slots</h3>
+        </div>
+
+        <div class="game-card">
+            <img src="assets/livecasino.png" class="game-logo">
+            <h3>Live Casino</h3>
+        </div>
+
+        <div class="game-card">
+            <img src="assets/cards.png" class="game-logo">
+            <h3>Cards</h3>
+        </div>
+
+        <div class="game-card">
+            <img src="assets/esports.png" class="game-logo">
+            <h3>Esports</h3>
+        </div>
+
+    </div>
+
+</section>
 </div>
 
 <script src="script.js"></script>
