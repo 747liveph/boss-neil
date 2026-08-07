@@ -131,3 +131,48 @@ a{
     color:#cfcfcf;
     margin-top:8px;
 }
+/* ===========================
+   AVAILABLE GAMES
+=========================== */
+
+.games{
+    padding:35px 20px;
+    text-align:center;
+}
+
+.games h2{
+    font-size:28px;
+    margin-bottom:20px;
+}
+
+.games-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+}
+
+.game-card{
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
+    padding:20px 15px;
+    transition:.3s;
+}
+
+.game-card:hover{
+    transform:translateY(-5px);
+    border-color:#9EFF00;
+    box-shadow:0 0 18px rgba(158,255,0,.25);
+}
+
+.game-logo{
+    width:60px;
+    height:60px;
+    object-fit:contain;
+    margin-bottom:12px;
+}
+
+.game-card h3{
+    font-size:16px;
+    color:#fff;
+}
