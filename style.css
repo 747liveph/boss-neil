@@ -311,18 +311,6 @@ a{text-decoration:none;color:inherit}
     font-weight:700;
     transition:.3s;
 }
-.hero-box{
-    width:90%;
-    max-width:650px;
-    margin:40px auto;
-    padding:35px 25px;
-    background:#111;
-    border:1px solid #333;
-    border-radius:25px;
-    text-align:center;
-    box-shadow:0 0 30px rgba(0,255,0,.15);
-}
-
 .top-logo img{
     width:230px;
     max-width:80%;
